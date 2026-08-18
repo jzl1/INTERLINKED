@@ -1,0 +1,14 @@
+node_modules
+config.json
+usrprefs.json
+usrprefs
+bot.log
+embed.json
+topserver.html
+serverlist.html
+.git
+.gitignore
+.gitattributes
+Dockerfile
+.dockerignore
+
