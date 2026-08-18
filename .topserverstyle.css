@@ -233,6 +233,41 @@ a:hover {
   transform: scale(0.97);
 }
 
+.view-all-container {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #26282c;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-view-all {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 8px 14px;
+  background: #232428;
+  color: #dbdee1 !important;
+  border: 1px solid #2f3136;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.btn-view-all:hover {
+  background: #2b2d31;
+  color: #ffffff !important;
+  border-color: #3f4248;
+}
+
+.btn-view-all:active {
+  transform: scale(0.99);
+}
+
 .server-info-row {
   display: flex;
   align-items: center;
