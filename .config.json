@@ -1,6 +1,7 @@
 {
   "dbPath": "usrprefs",
   "discordBotToken": "",
+  "discordInviteURL": "",
   "outputEmbedJSONPath": "embed.json",
   "topServersHTMLStylePath": ".topserverstyle.css",
   "outputTopServersHTMLPath": "topserver.html",
@@ -12,7 +13,7 @@
   "steamGameTypes": {
     "all": []
   },
-  "gameName": "NEOTOKYO°",
+  "gameName": "NEOTOKYO\u00b0",
   "logoURL": "",
   "gameListURL": "default",
   "activeImageURLs": [],

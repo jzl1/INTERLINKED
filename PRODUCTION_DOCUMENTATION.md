@@ -129,6 +129,7 @@ Edit `config.json` with at least:
 ```json
 {
   "discordBotToken": "your-discord-bot-token",
+  "discordInviteURL": "https://discord.gg/your-invite",
   "steamAPIKey": "your-steam-api-key",
   "steamAppID": "215",
   "steamGameDir": "insurgency",
@@ -191,6 +192,7 @@ For production, point nginx or Caddy at the directory containing `topserver.html
 | --- | --- | --- | --- | --- |
 | `dbPath` | string | Optional | `"usrprefs"` | Directory for command data such as player queues. |
 | `discordBotToken` | string | Recommended | `""` | Discord bot token. Empty disables Discord connectivity but keeps file generation. |
+| `discordInviteURL` | string | Optional | `""` | Community Discord invite URL embedded in generated web widgets. Empty omits button. |
 | `outputEmbedJSONPath` | string | Optional | `"embed.json"` | Output path for Discord embed JSON. |
 | `topServersHTMLStylePath` | string | Optional | `".topserverstyle.css"` | CSS file for the top-server page. |
 | `outputTopServersHTMLPath` | string | Optional | `"topserver.html"` | Output path for the top-server page. |

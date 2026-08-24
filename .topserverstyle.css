@@ -59,6 +59,47 @@ a:hover {
   color: #f2f3f5;
   letter-spacing: 0;
 }
+.embed-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-discord {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: rgba(88, 101, 242, 0.15);
+  color: #5865f2 !important;
+  border: 1px solid rgba(88, 101, 242, 0.35);
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.btn-discord:hover {
+  background-color: #5865f2;
+  color: #ffffff !important;
+  border-color: #5865f2;
+  box-shadow: 0 0 10px rgba(88, 101, 242, 0.4);
+}
+
+.btn-discord:active {
+  transform: scale(0.97);
+}
+
+.btn-discord svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
 
 .embed-content {
   width: 100%;
